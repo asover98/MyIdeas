@@ -1,0 +1,4 @@
+module Commander {
+    header "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Commander-Swift.h"
+    requires objc
+}

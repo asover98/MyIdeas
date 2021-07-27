@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "41af9af15f8e8f559f45ef15f36c8611"
+build_time: [1626804850, 185734000]
+inputs:
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/AllObjects.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/Extensions.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXIdentifier.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXObject+Fields.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXObject.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/Serialization.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/XCProjectFile+Rswift.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/XCProjectFile.swift": [9223372036, 854775807]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "2da0dc4bb6085ac34e606268ef93b91d"
+build_time: [1626804882, 398358000]
+inputs:
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/Rswift.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/main.swift": [9223372036, 854775807]

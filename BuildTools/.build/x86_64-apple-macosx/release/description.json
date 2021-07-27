@@ -1,0 +1,1135 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftCommands" : {
+    "C.BuildTools-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/Empty.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BuildTools",
+      "moduleOutputPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/BuildTools.swiftmodule",
+      "objects" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/BuildTools.build/Empty.swift.o"
+      ],
+      "otherArgs" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-O",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/BuildTools.build/BuildTools-Swift.h"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/BuildTools.build/Empty.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/BuildTools.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/Empty.swift"
+      ],
+      "tempsPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/BuildTools.build",
+      "WMO" : true
+    },
+    "C.Commander-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentConvertible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentDescription.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Command.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/CommandRunner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/CommandType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Commands.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Error.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Group.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Commander",
+      "moduleOutputPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.swiftmodule",
+      "objects" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/ArgumentConvertible.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/ArgumentDescription.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/ArgumentParser.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Command.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/CommandRunner.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/CommandType.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Commands.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Error.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Group.swift.o"
+      ],
+      "otherArgs" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "4",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-O",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Commander-Swift.h"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/ArgumentConvertible.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/ArgumentDescription.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/ArgumentParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Command.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/CommandRunner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/CommandType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Commands.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Error.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build/Group.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentConvertible.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentDescription.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentParser.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Command.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/CommandRunner.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/CommandType.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Commands.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Error.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Group.swift"
+      ],
+      "tempsPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.build",
+      "WMO" : true
+    },
+    "C.rswift-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/Rswift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/main.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.swiftmodule"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "rswift",
+      "moduleOutputPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/rswift.swiftmodule",
+      "objects" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/Rswift.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/main.swift.o"
+      ],
+      "otherArgs" : [
+        "-target",
+        "x86_64-apple-macosx10.11",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-O",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/Rswift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/main.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/rswift.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/Rswift.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/main.swift"
+      ],
+      "tempsPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build",
+      "WMO" : true
+    },
+    "C.RswiftCore-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/CallInformation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/EnvironmentValidation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/AccessibilityIdentifierStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/AggregatedStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/AssetSubfolders.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ColorStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/FontStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ImageStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/NibStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/PropertyListGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ResourceFileStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ReuseIdentifierGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/SegueGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/StoryboardGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/StringsStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/StructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ValidatedStructGenerator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/AssetFolder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Font.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Image.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Locale.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/LocalizableStrings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/NameCatalog.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Nib.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/PropertyList.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/ResourceFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Resources.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/ReusableContainer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Storyboard.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/StringParam.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Unifiable.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/WhiteListedExtensionsResourceType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Xcodeproj.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/RswiftCore.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/AccessLevel.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Class.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/HeaderPrinter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/ImportPrinter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/OSPrinter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/SwiftCodeConverible.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/TypePrinter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Function.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Let.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Module.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Struct.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Type.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/TypeVar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Typealias.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/ErrorOutput.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/Glob.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/IgnoreFile.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/Struct+InternalProperties.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/SwiftIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/TypeSequenceProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/UtilExtensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Commander.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "RswiftCore",
+      "moduleOutputPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.swiftmodule",
+      "objects" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/CallInformation.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/EnvironmentValidation.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/AccessibilityIdentifierStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/AggregatedStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/AssetSubfolders.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ColorStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/FontStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ImageStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/NibStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/PropertyListGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ResourceFileStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ReuseIdentifierGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/SegueGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/StoryboardGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/StringsStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/StructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ValidatedStructGenerator.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/AssetFolder.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Font.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Image.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Locale.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/LocalizableStrings.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/NameCatalog.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Nib.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/PropertyList.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/ResourceFile.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Resources.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/ReusableContainer.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Storyboard.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/StringParam.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Unifiable.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/WhiteListedExtensionsResourceType.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Xcodeproj.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/RswiftCore.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/AccessLevel.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Class.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/HeaderPrinter.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/ImportPrinter.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/OSPrinter.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/SwiftCodeConverible.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/TypePrinter.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Function.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Let.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Module.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Struct.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Type.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/TypeVar.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Typealias.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/ErrorOutput.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/Glob.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/IgnoreFile.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/Struct+InternalProperties.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/SwiftIdentifier.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/TypeSequenceProvider.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/UtilExtensions.swift.o"
+      ],
+      "otherArgs" : [
+        "-target",
+        "x86_64-apple-macosx10.11",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-O",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/RswiftCore-Swift.h"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/CallInformation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/EnvironmentValidation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/AccessibilityIdentifierStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/AggregatedStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/AssetSubfolders.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ColorStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/FontStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ImageStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/NibStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/PropertyListGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ResourceFileStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ReuseIdentifierGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/SegueGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/StoryboardGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/StringsStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/StructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Generators/ValidatedStructGenerator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/AssetFolder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Font.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Image.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Locale.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/LocalizableStrings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/NameCatalog.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Nib.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/PropertyList.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/ResourceFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Resources.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/ReusableContainer.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Storyboard.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/StringParam.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Unifiable.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/WhiteListedExtensionsResourceType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/ResourceTypes/Xcodeproj.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/RswiftCore.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/AccessLevel.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Class.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/HeaderPrinter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/ImportPrinter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/OSPrinter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/SwiftCodeConverible.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/CodeGenerators/TypePrinter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Function.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Let.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Module.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Struct.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Type.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/TypeVar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/SwiftTypes/Typealias.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/ErrorOutput.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/Glob.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/IgnoreFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/Struct+InternalProperties.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/SwiftIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/TypeSequenceProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build/Util/UtilExtensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/CallInformation.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/EnvironmentValidation.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/AccessibilityIdentifierStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/AggregatedStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/AssetSubfolders.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ColorStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/FontStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ImageStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/NibStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/PropertyListGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ResourceFileStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ReuseIdentifierGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/SegueGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/StoryboardGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/StringsStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/StructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Generators/ValidatedStructGenerator.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/AssetFolder.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Font.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Image.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Locale.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/LocalizableStrings.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/NameCatalog.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Nib.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/PropertyList.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/ResourceFile.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Resources.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/ReusableContainer.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Storyboard.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/StringParam.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Unifiable.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/WhiteListedExtensionsResourceType.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/ResourceTypes/Xcodeproj.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/RswiftCore.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/AccessLevel.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Class.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/HeaderPrinter.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/ImportPrinter.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/OSPrinter.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/SwiftCodeConverible.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/CodeGenerators/TypePrinter.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Function.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Let.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Module.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Struct.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Type.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/TypeVar.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/SwiftTypes/Typealias.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/ErrorOutput.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/Glob.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/IgnoreFile.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/Struct+InternalProperties.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/SwiftIdentifier.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/TypeSequenceProvider.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/RswiftCore/Util/UtilExtensions.swift"
+      ],
+      "tempsPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/RswiftCore.build",
+      "WMO" : true
+    },
+    "C.Spectre-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Case.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Context.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Expectation.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Failure.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Global.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/GlobalContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Reporter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Reporters.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/XCTest.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "Spectre",
+      "moduleOutputPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.swiftmodule",
+      "objects" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Case.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Context.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Expectation.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Failure.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Global.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/GlobalContext.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Reporter.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Reporters.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/XCTest.swift.o"
+      ],
+      "otherArgs" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-O",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Spectre-Swift.h"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Case.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Context.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Expectation.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Failure.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Global.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/GlobalContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Reporter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/Reporters.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build/XCTest.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Case.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Context.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Expectation.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Failure.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Global.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/GlobalContext.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Reporter.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/Reporters.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Spectre/Sources/Spectre/XCTest.swift"
+      ],
+      "tempsPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/Spectre.build",
+      "WMO" : true
+    },
+    "C.XcodeEdit-release.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/AllObjects.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXIdentifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXObject+Fields.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXObject.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/Serialization.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/XCProjectFile+Rswift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/XCProjectFile.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "XcodeEdit",
+      "moduleOutputPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.swiftmodule",
+      "objects" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/AllObjects.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/Extensions.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/PBXIdentifier.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/PBXObject+Fields.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/PBXObject.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/Serialization.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/XCProjectFile+Rswift.swift.o",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/XCProjectFile.swift.o"
+      ],
+      "otherArgs" : [
+        "-target",
+        "x86_64-apple-macosx10.10",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-O",
+        "-g",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-module-cache-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/ModuleCache",
+        "-parseable-output",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/XcodeEdit-Swift.h"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/AllObjects.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/PBXIdentifier.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/PBXObject+Fields.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/PBXObject.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/Serialization.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/XCProjectFile+Rswift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/XCProjectFile.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/AllObjects.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/Extensions.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXIdentifier.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXObject+Fields.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/PBXObject.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/Serialization.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/XCProjectFile+Rswift.swift",
+        "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/XcodeEdit/Sources/XcodeEdit/XCProjectFile.swift"
+      ],
+      "tempsPath" : "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build",
+      "WMO" : true
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)"
+options: "2d2e6b2e78f98e09d16690c347676471"
+build_time: [1626804850, 185891000]
+inputs:
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentConvertible.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentDescription.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/ArgumentParser.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Command.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/CommandRunner.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/CommandType.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Commands.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Error.swift": [9223372036, 854775807]
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/Commander/Sources/Commander/Group.swift": [9223372036, 854775807]

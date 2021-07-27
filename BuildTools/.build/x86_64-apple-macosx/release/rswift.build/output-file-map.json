@@ -1,0 +1,17 @@
+{
+  "": {
+    "dependencies": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/rswift.d",
+    "object": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/rswift.o",
+    "swift-dependencies": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/master.swiftdeps"
+  },
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/Rswift.swift": {
+    "object": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/Rswift.swift.o",
+    "swiftmodule": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/Rswift~partial.swiftmodule",
+    "swift-dependencies": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/Rswift.swiftdeps"
+  },
+  "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/checkouts/R.swift/Sources/rswift/main.swift": {
+    "object": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/main.swift.o",
+    "swiftmodule": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/rswift.build/main.swiftdeps"
+  }
+}

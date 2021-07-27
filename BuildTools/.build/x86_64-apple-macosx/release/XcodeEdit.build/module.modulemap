@@ -1,0 +1,4 @@
+module XcodeEdit {
+    header "/Users/aseldergadziev/Desktop/MyIdeas/BuildTools/.build/x86_64-apple-macosx/release/XcodeEdit.build/XcodeEdit-Swift.h"
+    requires objc
+}
